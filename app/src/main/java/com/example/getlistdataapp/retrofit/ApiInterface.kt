@@ -7,7 +7,7 @@ import retrofit2.http.Query
 
 interface ApiInterface {
 
-    @GET("users")
+    @GET("userslist")
     fun list(@Query("page")page: String): Call<GetData>
 
 }
